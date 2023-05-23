@@ -6,7 +6,9 @@ const DetalleComponent = () => {
   console.log(pokemon);
   return (
     <>
-      <h2 className="my-3 font-extrabold text-2xl">Detalle Pokémon</h2>
+      <h2 className="my-3 font-extrabold text-2xl text-center">
+        Detalle Pokémon
+      </h2>
       <div className="border border-gray-100 flex flex-col ">
         <div className=" grid place-items-center">
           <img className="" src={pokemon.imagen} alt="" />
